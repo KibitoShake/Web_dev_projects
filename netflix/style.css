@@ -15,14 +15,14 @@ body{
   background-position: center center;
   background-size: max(1200px, 100vw);
   background-repeat: no-repeat;
-  height: 70vh;
+  height: 644px;
   position: relative;
 }
 
 .main .box {
-  height: 70vh;
+  height: 644px;
   width: 100%;
-  opacity: 0.44;
+  opacity: 0.69;
   position: absolute;
   top: 0;
   background-color: black;
@@ -34,14 +34,14 @@ nav {
   margin: auto;
   display: flex;
   align-items: center;
-  height: 62px;
+  height: 100px;
 }
 
 nav img {
   color: red;
-  width: 114px;
-  z-index: 10;
+  width: 130px;
   position: relative;
+  z-index: 10;
 }
 
 nav button {
@@ -50,32 +50,68 @@ nav button {
 }
 
 .hero {
-  height: 100%;
+  font-family: 'Martel Sans', sans-serif;
+  height: calc(100% - 100px);
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   color: white;
   position: relative;
-  font-family: 'Martel Sans', sans-serif;
-  gap: 20px;
-  padding: 30 px;
+  gap: 23px;
+  padding: 0 30px;
 }
 
-.hero> :nth-child(1){
-    font-weight: 900;
-    font-size: 48px;
-    text-align: center;
+.hero> :nth-child(1) {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+  font-size: 48px;
+  text-align: center;
 }
 
-.hero> :nth-child(2){
-    font-weight: 700;
-    font-size: 24px;
-    text-align: center;
+.hero> :nth-child(2) {
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
 }
 
-.hero> :nth-child(3){
-    font-weight: 400;
-    font-size: 20px;
-    text-align: center;
+.hero> :nth-child(3) {
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+}
+
+.separation {
+  height: 7px;
+  background-color: rgb(46, 44, 44);
+  position: relative;
+  z-index: 20;
+}
+
+.btn{
+  padding: 3px 8px;
+  font-weight: bold ;
+  background-color: rgba(23, 23, 23, 0.041);
+
+}
+
+.btn-red{
+  background-color: red;
+  color: white;
+  padding:  3px 24px;
+  font-size: 20px;
+  border-radius: 4px;
+
+}
+
+.btn-red-sm{
+  background-color: red;
+  color: white;
+}
+
+.main input{
+  padding:  3px 24px;
+  font-size: 20px;
+  border-radius: 4px;
+  background-color: rgba(23, 23, 23, 0.2);
 }
